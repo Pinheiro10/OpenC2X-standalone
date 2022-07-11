@@ -58,7 +58,7 @@ DenService::DenService() {
 	mReceiverObd2 = new CommunicationReceiver("2222", "OBD2", *mLogger);
 
 	mMsgUtils = new MessageUtils(*mLogger);
-	mLogger->logStats("Station Id \tDENM id \tCreate Time \tReceive Time");
+	mLogger->logStats("Station Id \tDENM id \tCreate Time \tReceive Time Miguel Edit");
 
 	mIdCounter = 0;
 }
